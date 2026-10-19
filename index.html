@@ -1,89 +1,293 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="ALUMKA | Carpintería de aluminio y PVC en Gilet y Valencia. Fabricamos e instalamos ventanas, puertas, balconeras, correderas, mosquiteras, toldos y pérgolas. También cerrajería, mantenimiento, pintura y reformas.">
-<title>ALUMKA | Carpintería de Aluminio, PVC y Mantenimiento en Gilet</title>
+
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="ALUMKA en Gilet y Valencia. Ventanas y puertas de aluminio y PVC, toldos, persianas, cerrajería, mantenimiento, pintura y reformas. Solicita tu presupuesto.">
+<meta name="theme-color" content="#102c53">
+<title>ALUMKA | Ventanas, PVC, Toldos y Reformas en Valencia</title>
+
 <style>
-*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;color:#172033}a{text-decoration:none}.w{width:min(1100px,92%);margin:auto}
-header{position:sticky;top:0;z-index:5;background:#fff;box-shadow:0 2px 12px #0002}nav{height:70px;display:flex;align-items:center;justify-content:space-between}
-.logo{font-size:29px;font-weight:900;color:#111}.logo span{color:#164b9b}nav a{margin-left:20px;color:#172033;font-weight:700}
-.hero{min-height:610px;color:white;background:linear-gradient(100deg,#061b3de8,#123c85aa),url('fotos/presentacion.jpg') center/cover;display:flex;align-items:center}.hero div{max-width:760px;padding:70px 0}
-h1{font-size:clamp(40px,7vw,66px);line-height:1.05;margin:12px 0}.hero p{font-size:20px}.btn{display:inline-block;padding:14px 22px;border-radius:7px;font-weight:800;margin:8px 8px 0 0}.white{background:#fff;color:#123c85}.blue{background:#123c85;color:#fff}
-section{padding:75px 0}.grey{background:#f4f6f9}.title{text-align:center;margin-bottom:38px}.title h2{font-size:36px;margin:0 0 8px}.title p{color:#687386}
-.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.card{background:#fff;padding:25px;border-radius:12px;border:1px solid #e5e9ef;box-shadow:0 5px 18px #0000000b}.ico{font-size:34px}.card h3{font-size:20px}.card p{color:#687386}
-.about{display:grid;grid-template-columns:1fr 1fr;gap:42px;align-items:center}.about img{width:100%;border-radius:14px;box-shadow:0 10px 25px #0002}.about h2{font-size:38px;line-height:1.15}.about li{margin:9px 0;font-weight:700}
-.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.gallery img{width:100%;height:240px;object-fit:cover;border-radius:10px}
-.cta{background:#071b3d;color:#fff;text-align:center}.cta h2{font-size:38px}.contact{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.contact div{background:#f4f6f9;padding:25px;border-radius:10px}.contact a{font-weight:800;color:#123c85;font-size:18px}
-footer{background:#061126;color:#ccd6e8;text-align:center;padding:28px}.float{position:fixed;right:15px;bottom:15px;background:#25d366;color:#fff;padding:13px 18px;border-radius:28px;font-weight:900;z-index:8}
-@media(max-width:850px){.grid{grid-template-columns:repeat(2,1fr)}.about{grid-template-columns:1fr}.gallery{grid-template-columns:repeat(2,1fr)}.contact{grid-template-columns:1fr}nav div:last-child{display:none}}
-@media(max-width:560px){.grid,.gallery{grid-template-columns:1fr}section{padding:55px 0}.hero p{font-size:17px}.title h2,.about h2,.cta h2{font-size:30px}}
-</style></head><body>
-<header><nav class="w"><a class="logo">ALUM<span>KA</span></a><div><a href="#servicios">Servicios</a><a href="#trabajos">Trabajos</a><a href="#contacto">Contacto</a></div></nav></header>
-<section class="hero"><div class="w"><small>Gilet · Sagunto · Puerto de Sagunto · Valencia y alrededores</small><h1>Tu proyecto, nuestra experiencia.</h1><p>Carpintería de aluminio y PVC, cerrajería, mantenimiento, pintura y alisado de paredes.</p>
-<a class="btn white" href="https://wa.me/34641621259?text=Hola%20ALUMKA,%20quiero%20pedir%20un%20presupuesto.">PEDIR PRESUPUESTO</a><a class="btn blue" href="tel:+34641621259">641 621 259</a></div></section>
-<section id="servicios" class="grey"><div class="w"><div class="title"><h2>Nuestros servicios</h2><p>Calidad · Profesionalidad · Compromiso · Soluciones a medida</p></div><div class="grid">
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{margin:0;font-family:Arial,sans-serif;color:#172033;line-height:1.6}
+a{text-decoration:none}
+.w{width:min(1150px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:#fff;box-shadow:0 2px 15px #0002}
+nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:15px}
+.logo{font-size:30px;font-weight:900;color:#101820;letter-spacing:1px}
+.logo span{color:#1761b0}
+nav div{display:flex;gap:22px;flex-wrap:wrap}
+nav div a{color:#172033;font-weight:700;font-size:14px}
+.hero{min-height:570px;color:#fff;background:linear-gradient(90deg,#071a35ed,#102c5390),url('01-ventanas-puertas-aluminio-pvc.jpg') center/cover;display:flex;align-items:center}
+.hero-content{padding:75px 0;max-width:780px}
+.hero small{font-weight:700;letter-spacing:1px}
+h1{font-size:clamp(40px,7vw,68px);line-height:1.08;margin:18px 0}
+.hero p{font-size:20px;max-width:680px}
+.btn{display:inline-block;padding:13px 21px;border-radius:7px;font-weight:800;margin:8px 8px 0 0}
+.white{background:#fff;color:#123c75}
+.blue{background:#1455a0;color:#fff}
+section{padding:72px 0}
+.grey{background:#f3f6fa}
+.title{text-align:center;margin-bottom:36px}
+.title h2{font-size:clamp(28px,4vw,38px);margin:0 0 8px;line-height:1.2}
+.title p{color:#687386}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.card{background:#fff;border-radius:12px;overflow:hidden;border:1px solid #e5e9ef;box-shadow:0 5px 20px #0000000b}
+.card img{width:100%;height:235px;object-fit:cover;display:block}
+.card-content{padding:22px}
+.ico{font-size:28px}
+.card h3{font-size:20px;line-height:1.3;margin:8px 0}
+.card p{color:#657186;font-size:15px;margin-bottom:0}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:42px;align-items:center}
+.about img{width:100%;border-radius:14px;display:block;box-shadow:0 10px 25px #0002}
+.about h2{font-size:clamp(30px,4vw,40px);line-height:1.15}
+.about li{margin:10px 0;font-weight:700}
+.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.gallery figure{margin:0;background:#fff;border-radius:10px;overflow:hidden;box-shadow:0 4px 15px #0000000b}
+.gallery img{width:100%;height:235px;object-fit:cover;display:block}
+.gallery figcaption{padding:12px 15px;font-weight:700}
+.cta{background:#0b2040;color:#fff;text-align:center}
+.cta h2{font-size:clamp(29px,4vw,40px);margin-top:0}
+.contact{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.contact div{background:#f3f6fa;padding:22px;border-radius:10px;overflow-wrap:anywhere}
+.contact a{font-weight:800;color:#1455a0}
+footer{background:#061126;color:#ccd6e8;text-align:center;padding:28px 15px;font-size:14px}
+.float{position:fixed;right:15px;bottom:15px;background:#20bd5a;color:#fff;padding:13px 19px;border-radius:30px;font-weight:900;z-index:15;box-shadow:0 4px 15px #0003}
+@media(max-width:850px){
+ .grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .about{grid-template-columns:1fr}
+ .contact{grid-template-columns:1fr}
+ nav{padding:12px 0;align-items:flex-start;flex-direction:column}
+ nav div{gap:15px}
+}
+@media(max-width:560px){
+ .grid,.gallery{grid-template-columns:1fr}
+ section{padding:52px 0}
+ .hero{min-height:510px}
+ .hero p{font-size:17px}
+ .card img,.gallery img{height:230px}
+ .float{right:10px;bottom:10px}
+}
+</style>
+</head>
 
-<div class="card">
-  <div class="ico">🪟</div>
-  <h3>Ventanas y puertas de aluminio y PVC</h3>
-  <p>Fabricación e instalación de ventanas, puertas, balconeras y cerramientos a medida. Soluciones de calidad para mejorar el aislamiento, la comodidad y la estética de tu vivienda.</p>
+<body>
+<header>
+<nav class="w">
+<a class="logo" href="#inicio">ALUM<span>KA</span></a>
+<div>
+<a href="#servicios">Servicios</a>
+<a href="#trabajos">Galería</a>
+<a href="#contacto">Contacto</a>
+</div>
+</nav>
+</header>
+
+<main>
+<section class="hero" id="inicio">
+<div class="w hero-content">
+<small>GILET · SAGUNTO · VALENCIA Y ALREDEDORES</small>
+<h1>Calidad, experiencia y soluciones a medida</h1>
+<p>Carpintería de aluminio y PVC, toldos, persianas, puertas de seguridad, cerrajería, mantenimiento y reformas.</p>
+<a class="btn white" href="https://wa.me/34641621259?text=Hola%20ALUMKA%2C%20quiero%20pedir%20un%20presupuesto." target="_blank" rel="noopener">PEDIR PRESUPUESTO</a>
+<a class="btn blue" href="tel:+34641621259">641 621 259</a>
+</div>
+</section>
+
+<section id="servicios" class="grey">
+<div class="w">
+<div class="title">
+<h2>Nuestros servicios</h2>
+<p>Atención directa, trabajos a medida y presupuestos personalizados.</p>
 </div>
 
-<div class="card">
-  <div class="ico">☀️</div>
-  <h3>Toldos extensibles</h3>
-  <p>Instalación de toldos extensibles para terrazas, balcones y patios. Protege tu espacio del sol con soluciones adaptadas a tus medidas y necesidades.</p>
+<div class="grid">
+<article class="card">
+<img src="01-ventanas-puertas-aluminio-pvc.jpg" alt="Ventanas y puertas de aluminio y PVC ALUMKA" loading="lazy">
+<div class="card-content">
+<div class="ico">🪟</div>
+<h3>Ventanas y puertas de aluminio y PVC</h3>
+<p>Ventanas, puertas, balconeras y cerramientos a medida. Soluciones para mejorar el aislamiento, el confort y la estética de tu vivienda.</p>
 </div>
+</article>
 
-<div class="card">
-  <div class="ico">🏠</div>
-  <h3>Toldos de punto recto</h3>
-  <p>Soluciones prácticas para ventanas y fachadas. Reduce la incidencia directa del sol y mejora el confort de tu hogar con toldos adaptados a cada espacio.</p>
+<article class="card">
+<img src="02-toldos-extensibles.jpg" alt="Toldos extensibles instalados por ALUMKA" loading="lazy">
+<div class="card-content">
+<div class="ico">☀️</div>
+<h3>Toldos extensibles</h3>
+<p>Protección solar para terrazas, balcones y patios. Diferentes opciones adaptadas a las medidas y necesidades de tu espacio.</p>
 </div>
+</article>
 
-<div class="card">
-  <div class="ico">🌤️</div>
-  <h3>Toldos planos</h3>
-  <p>Protección solar para terrazas, patios y espacios exteriores. Estudiamos cada instalación para ofrecer una solución funcional y adaptada a tu proyecto.</p>
+<article class="card">
+<img src="03-toldos-punto-recto.jpg" alt="Toldos de punto recto ALUMKA" loading="lazy">
+<div class="card-content">
+<div class="ico">🏠</div>
+<h3>Toldos de punto recto</h3>
+<p>Una solución práctica para ventanas y fachadas, que ayuda a reducir la entrada directa del sol.</p>
 </div>
+</article>
 
-<div class="card">
-  <div class="ico">🪟</div>
-  <h3>Persianas enrollables</h3>
-  <p>Instalación, sustitución y reparación de persianas enrollables. Soluciones para mejorar la privacidad, regular la entrada de luz y mantener tus persianas en buen estado.</p>
+<article class="card">
+<img src="04-toldos-planos.jpg" alt="Toldos planos para terrazas y patios" loading="lazy">
+<div class="card-content">
+<div class="ico">🌤️</div>
+<h3>Toldos planos</h3>
+<p>Protección para terrazas, patios y espacios exteriores, con propuestas adaptadas a cada proyecto.</p>
 </div>
+</article>
 
-<div class="card">
-  <div class="ico">🔐</div>
-  <h3>Puertas de entrada de seguridad</h3>
-  <p>Puertas de seguridad para viviendas y negocios. Te asesoramos sobre modelos, acabados y sistemas de cierre para combinar protección, diseño y una instalación cuidada.</p>
+<article class="card">
+<img src="05-persianas-enrollables.jpg" alt="Persianas enrollables ALUMKA" loading="lazy">
+<div class="card-content">
+<div class="ico">🪟</div>
+<h3>Persianas enrollables</h3>
+<p>Instalación, sustitución y reparación de persianas para regular la luz, ganar privacidad y mantenerlas en buen estado.</p>
 </div>
+</article>
 
-<div class="card">
-  <div class="ico">🔒</div>
-  <h3>Cerrajería</h3>
-  <p>Trabajos de cerrajería, rejas, vallas, puertas de acceso y soluciones metálicas adaptadas a las necesidades de cada cliente.</p>
+<article class="card">
+<img src="06-puertas-seguridad.jpg" alt="Puertas de entrada de seguridad" loading="lazy">
+<div class="card-content">
+<div class="ico">🔐</div>
+<h3>Puertas de seguridad</h3>
+<p>Puertas de entrada para viviendas y negocios. Te asesoramos sobre modelos, acabados y sistemas de cierre.</p>
 </div>
+</article>
 
-<div class="card">
-  <div class="ico">🛠️</div>
-  <h3>Mantenimiento y reparaciones</h3>
-  <p>Reparaciones y mantenimiento de persianas, toldos, ventanas, puertas y otros elementos de viviendas, comunidades y locales comerciales.</p>
+<article class="card">
+<img src="07-cerrajeria.jpg" alt="Trabajos de cerrajería ALUMKA" loading="lazy">
+<div class="card-content">
+<div class="ico">🔒</div>
+<h3>Cerrajería</h3>
+<p>Trabajos metálicos, rejas, vallas, puertas de acceso y soluciones adaptadas a las necesidades de cada cliente.</p>
 </div>
+</article>
 
-<div class="card">
-  <div class="ico">🎨</div>
-  <h3>Pintura y reformas</h3>
-  <p>Alisado de paredes, eliminación de gotelé, pintura y trabajos de reforma y mantenimiento para renovar y mejorar tus espacios.</p>
+<article class="card">
+<img src="08-mantenimiento-reparaciones.jpg" alt="Mantenimiento y reparaciones ALUMKA" loading="lazy">
+<div class="card-content">
+<div class="ico">🛠️</div>
+<h3>Mantenimiento y reparaciones</h3>
+<p>Reparaciones de persianas, toldos, ventanas y puertas, además de mantenimiento para viviendas, comunidades y locales.</p>
 </div>
+</article>
 
-</div></div></section>
-<section><div class="w about"><img src="fotos/tarjeta-alumka.jpg" alt="ALUMKA"><div><h2>Un servicio cercano y a medida</h2><p>Cuéntanos qué necesitas y estudiaremos el trabajo para ofrecerte una solución adaptada.</p><ul><li>Presupuestos personalizados</li><li>Atención directa</li><li>Trabajos a medida</li><li>Acabado profesional</li></ul><a class="btn blue" href="https://wa.me/34641621259?text=Hola%20ALUMKA,%20quiero%20consultar%20un%20trabajo.">WHATSAPP</a></div></div></section>
-<section id="trabajos" class="grey"><div class="w"><div class="title"><h2>Trabajos realizados</h2><p>Después sustituimos estas imágenes por tus fotos reales.</p></div><div class="gallery"><img src="fotos/presentacion.jpg"><img src="fotos/presentacion.jpg"><img src="fotos/presentacion.jpg"></div></div></section>
-<section class="cta"><div class="w"><h2>¿Necesitas un presupuesto?</h2><p>Envíanos fotos y explícanos qué necesitas.</p><a class="btn white" href="https://wa.me/34641621259?text=Hola%20ALUMKA,%20quiero%20pedir%20un%20presupuesto.">CONTACTAR POR WHATSAPP</a></div></section>
-<section id="contacto"><div class="w"><div class="title"><h2>Contacto</h2><p>Gilet, Sagunto, Puerto de Sagunto, Valencia y alrededores.</p></div><div class="contact">
-<div><h3>📞 Teléfono</h3><a href="tel:+34641621259">641 621 259</a></div>
-<div><h3>📧 Email</h3><a href="mailto:Alumka.es@gmail.com">Alumka.es@gmail.com</a></div>
-<div><h3>📲 Instagram</h3><a href="https://www.instagram.com/alumka.es/" target="_blank">Alumka.es</a></div>
-</div></div></section>
-<footer>© 2026 ALUMKA · Carpintería de aluminio y PVC · Cerrajería · Mantenimiento · Pintura</footer>
-<a class="float" href="https://wa.me/34641621259?text=Hola%20ALUMKA,%20quiero%20pedir%20un%20presupuesto.">WhatsApp</a>
-</body></html>
+<article class="card">
+<img src="09-pintura-reformas.jpg" alt="Pintura y reformas ALUMKA" loading="lazy">
+<div class="card-content">
+<div class="ico">🎨</div>
+<h3>Pintura y reformas</h3>
+<p>Alisado de paredes, eliminación de gotelé, pintura y trabajos de reforma para renovar y mejorar tus espacios.</p>
+</div>
+</article>
+</div>
+</div>
+</section>
+
+<section>
+<div class="w about">
+<img src="01-ventanas-puertas-aluminio-pvc.jpg" alt="Carpintería de aluminio y PVC de ALUMKA" loading="lazy">
+<div>
+<h2>Un servicio cercano y profesional</h2>
+<p>En ALUMKA estudiamos cada trabajo para ofrecerte una solución adaptada a tus necesidades.</p>
+<ul>
+<li>Más de 20 años de experiencia en montaje</li>
+<li>Presupuestos personalizados</li>
+<li>Atención directa</li>
+<li>Trabajos a medida</li>
+</ul>
+<a class="btn blue" href="https://wa.me/34641621259?text=Hola%20ALUMKA%2C%20quiero%20consultar%20un%20trabajo." target="_blank" rel="noopener">CONSULTAR POR WHATSAPP</a>
+</div>
+</div>
+</section>
+
+<section id="trabajos" class="grey">
+<div class="w">
+<div class="title">
+<h2>Nuestros trabajos y servicios</h2>
+<p>Descubre las soluciones de ALUMKA para tu vivienda o negocio.</p>
+</div>
+<div class="gallery">
+<figure>
+<img src="01-ventanas-puertas-aluminio-pvc.jpg" alt="Ventanas y puertas de aluminio y PVC" loading="lazy">
+<figcaption>Ventanas y puertas</figcaption>
+</figure>
+<figure>
+<img src="02-toldos-extensibles.jpg" alt="Toldos extensibles" loading="lazy">
+<figcaption>Toldos extensibles</figcaption>
+</figure>
+<figure>
+<img src="03-toldos-punto-recto.jpg" alt="Toldos de punto recto" loading="lazy">
+<figcaption>Toldos de punto recto</figcaption>
+</figure>
+<figure>
+<img src="04-toldos-planos.jpg" alt="Toldos planos" loading="lazy">
+<figcaption>Toldos planos</figcaption>
+</figure>
+<figure>
+<img src="05-persianas-enrollables.jpg" alt="Persianas enrollables" loading="lazy">
+<figcaption>Persianas</figcaption>
+</figure>
+<figure>
+<img src="06-puertas-seguridad.jpg" alt="Puertas de seguridad" loading="lazy">
+<figcaption>Puertas de seguridad</figcaption>
+</figure>
+<figure>
+<img src="07-cerrajeria.jpg" alt="Cerrajería" loading="lazy">
+<figcaption>Cerrajería</figcaption>
+</figure>
+<figure>
+<img src="08-mantenimiento-reparaciones.jpg" alt="Mantenimiento y reparaciones" loading="lazy">
+<figcaption>Mantenimiento y reparaciones</figcaption>
+</figure>
+<figure>
+<img src="09-pintura-reformas.jpg" alt="Pintura y reformas" loading="lazy">
+<figcaption>Pintura y reformas</figcaption>
+</figure>
+</div>
+</div>
+</section>
+
+<section class="cta">
+<div class="w">
+<h2>¿Necesitas un presupuesto?</h2>
+<p>Cuéntanos qué necesitas y envíanos fotos de tu proyecto por WhatsApp.</p>
+<a class="btn white" href="https://wa.me/34641621259?text=Hola%20ALUMKA%2C%20quiero%20pedir%20un%20presupuesto." target="_blank" rel="noopener">CONTACTAR POR WHATSAPP</a>
+</div>
+</section>
+
+<section id="contacto">
+<div class="w">
+<div class="title">
+<h2>Contacta con ALUMKA</h2>
+<p>Gilet, Sagunto, Puerto de Sagunto, Valencia y alrededores.</p>
+</div>
+<div class="contact">
+<div>
+<h3>📞 Teléfono</h3>
+<a href="tel:+34641621259">641 621 259</a>
+</div>
+<div>
+<h3>📧 Correo electrónico</h3>
+<a href="mailto:alumka.es@gmail.com">alumka.es@gmail.com</a>
+</div>
+<div>
+<h3>📲 Instagram</h3>
+<a href="https://www.instagram.com/alumka.es/" target="_blank" rel="noopener">Síguenos en Instagram</a>
+</div>
+</div>
+</div>
+</section>
+</main>
+
+<footer>
+© 2026 ALUMKA · Carpintería de aluminio y PVC · Toldos · Cerrajería · Mantenimiento · Reformas
+</footer>
+
+<a class="float" href="https://wa.me/34641621259?text=Hola%20ALUMKA%2C%20quiero%20pedir%20un%20presupuesto." target="_blank" rel="noopener" aria-label="Contactar con ALUMKA por WhatsApp">WhatsApp</a>
+</body>
+</html>

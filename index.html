@@ -3,109 +3,479 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <meta name="description" content="ALUMKA en Gilet, Sagunto y Valencia. Ventanas y puertas de aluminio y PVC, toldos, persianas, mosquiteras, pérgolas, cerrajería y mantenimiento. Solicita presupuesto.">
+
 <meta name="theme-color" content="#102c53">
+
 <title>ALUMKA | Carpintería de aluminio y PVC, toldos y persianas</title>
 
 <style>
-*{box-sizing:border-box}
-html{scroll-behavior:smooth;scroll-padding-top:80px}
-body{margin:0;font-family:Arial,sans-serif;color:#172033;line-height:1.6}
-a{text-decoration:none}
-.w{width:min(1150px,92%);margin:auto}
-header{position:sticky;top:0;z-index:10;background:#fff;box-shadow:0 2px 15px #0002}
-nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:15px}
-.logo{font-size:30px;font-weight:900;color:#101820;letter-spacing:1px}
-.logo span{color:#1761b0}
-nav div{display:flex;gap:22px;flex-wrap:wrap}
-nav div a{color:#172033;font-weight:700;font-size:14px}
-.hero{min-height:570px;color:#fff;background:linear-gradient(90deg,#071a35ed,#102c5390),url('01-ventanas-puertas-aluminio-pvc.jpg') center/cover;display:flex;align-items:center}
-.hero-content{padding:75px 0;max-width:780px}
-.hero small{font-weight:700;letter-spacing:1px}
-h1{font-size:clamp(40px,7vw,68px);line-height:1.08;margin:18px 0}
-.hero p{font-size:20px;max-width:680px}
-.btn{display:inline-block;padding:13px 21px;border-radius:7px;font-weight:800;margin:8px 8px 0 0}
-.white{background:#fff;color:#123c75}
-.blue{background:#1455a0;color:#fff}
-section{padding:72px 0}
-.grey{background:#f3f6fa}
-.title{text-align:center;margin-bottom:36px}
-.title h2{font-size:clamp(28px,4vw,38px);margin:0 0 8px;line-height:1.2}
-.title p{color:#687386}
-.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
-.card{background:#fff;border-radius:12px;overflow:hidden;border:1px solid #e5e9ef;box-shadow:0 5px 20px #0000000b}
-.card img{width:100%;height:235px;object-fit:cover;display:block}
-.card-content{padding:22px}
-.ico{font-size:28px}
-.card h3{font-size:20px;line-height:1.3;margin:8px 0}
-.card p{color:#657186;font-size:15px;margin-bottom:0}
-.about{display:grid;grid-template-columns:1fr 1fr;gap:42px;align-items:center}
-.about img{width:100%;border-radius:14px;display:block;box-shadow:0 10px 25px #0002}
-.about h2{font-size:clamp(30px,4vw,40px);line-height:1.15}
-.about li{margin:10px 0;font-weight:700}
-.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
-.gallery figure{margin:0;background:#fff;border-radius:10px;overflow:hidden;box-shadow:0 4px 15px #0000000b}
-.gallery img,.gallery video{width:100%;height:235px;object-fit:cover;display:block}
-.gallery video{background:#000}
-.gallery figcaption{padding:12px 15px;font-weight:700}
-.reviews{max-width:850px;margin:auto;text-align:center;background:#fff;border:1px solid #e5e9ef;border-radius:14px;padding:35px;box-shadow:0 5px 20px #0000000b}
-.reviews p{color:#657186}
-.stars{font-size:30px;color:#f5a623;letter-spacing:4px}
-.cta{background:#0b2040;color:#fff;text-align:center}
-.cta h2{font-size:clamp(29px,4vw,40px);margin-top:0}
-.contact{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
-.contact div{background:#f3f6fa;padding:22px;border-radius:10px;overflow-wrap:anywhere}
-.contact a{font-weight:800;color:#1455a0}
-footer{background:#061126;color:#ccd6e8;text-align:center;padding:28px 15px;font-size:14px}
-.float{position:fixed;right:15px;bottom:15px;background:#20bd5a;color:#fff;padding:13px 19px;border-radius:30px;font-weight:900;z-index:15;box-shadow:0 4px 15px #0003}
+*{
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+scroll-padding-top:85px;
+}
+
+body{
+margin:0;
+font-family:Arial,sans-serif;
+color:#172033;
+line-height:1.6;
+}
+
+a{
+text-decoration:none;
+}
+
+.w{
+width:min(1150px,92%);
+margin:auto;
+}
+
+/* CABECERA */
+
+header{
+position:sticky;
+top:0;
+z-index:10;
+background:#fff;
+box-shadow:0 2px 15px #0002;
+}
+
+nav{
+min-height:72px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:15px;
+}
+
+.logo{
+font-size:30px;
+font-weight:900;
+color:#101820;
+letter-spacing:1px;
+}
+
+.logo span{
+color:#1761b0;
+}
+
+nav div{
+display:flex;
+gap:22px;
+flex-wrap:wrap;
+}
+
+nav div a{
+color:#172033;
+font-weight:700;
+font-size:14px;
+}
+
+/* PORTADA */
+
+.hero{
+min-height:570px;
+color:#fff;
+background:
+linear-gradient(90deg,#071a35ed,#102c5390),
+url('01-ventanas-puertas-aluminio-pvc.jpg')
+center/cover;
+display:flex;
+align-items:center;
+}
+
+.hero-content{
+padding:75px 0;
+max-width:780px;
+}
+
+.hero small{
+font-weight:700;
+letter-spacing:1px;
+}
+
+h1{
+font-size:clamp(40px,7vw,68px);
+line-height:1.08;
+margin:18px 0;
+}
+
+.hero p{
+font-size:20px;
+max-width:680px;
+}
+
+.btn{
+display:inline-block;
+padding:13px 21px;
+border-radius:7px;
+font-weight:800;
+margin:8px 8px 0 0;
+}
+
+.white{
+background:#fff;
+color:#123c75;
+}
+
+.blue{
+background:#1455a0;
+color:#fff;
+}
+
+/* SECCIONES */
+
+section{
+padding:72px 0;
+}
+
+.grey{
+background:#f3f6fa;
+}
+
+.title{
+text-align:center;
+margin-bottom:36px;
+}
+
+.title h2{
+font-size:clamp(28px,4vw,38px);
+margin:0 0 8px;
+line-height:1.2;
+}
+
+.title p{
+color:#687386;
+}
+
+/* SERVICIOS */
+
+.grid{
+display:grid;
+grid-template-columns:repeat(3,minmax(0,1fr));
+gap:22px;
+}
+
+.card{
+background:#fff;
+border-radius:12px;
+overflow:hidden;
+border:1px solid #e5e9ef;
+box-shadow:0 5px 20px #0000000b;
+}
+
+.card img{
+width:100%;
+height:235px;
+object-fit:cover;
+display:block;
+}
+
+.card-content{
+padding:22px;
+}
+
+.ico{
+font-size:28px;
+}
+
+.card h3{
+font-size:20px;
+line-height:1.3;
+margin:8px 0;
+}
+
+.card p{
+color:#657186;
+font-size:15px;
+margin-bottom:0;
+}
+
+/* SOBRE ALUMKA */
+
+.about{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:42px;
+align-items:center;
+}
+
+.about-box{
+background:#f3f6fa;
+padding:35px;
+border-radius:14px;
+}
+
+.about h2{
+font-size:clamp(30px,4vw,40px);
+line-height:1.15;
+margin-top:0;
+}
+
+.about li{
+margin:10px 0;
+font-weight:700;
+}
+
+/* GALERÍA */
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(3,minmax(0,1fr));
+gap:20px;
+}
+
+.gallery figure{
+margin:0;
+background:#fff;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 4px 15px #0000000b;
+}
+
+.gallery img,
+.gallery video{
+width:100%;
+height:280px;
+object-fit:cover;
+display:block;
+}
+
+.gallery video{
+background:#000;
+}
+
+.gallery figcaption{
+padding:14px 15px;
+font-weight:700;
+}
+
+/* OPINIONES */
+
+.reviews{
+max-width:850px;
+margin:auto;
+text-align:center;
+background:#fff;
+border:1px solid #e5e9ef;
+border-radius:14px;
+padding:35px;
+box-shadow:0 5px 20px #0000000b;
+}
+
+.reviews p{
+color:#657186;
+}
+
+.stars{
+font-size:30px;
+color:#f5a623;
+letter-spacing:4px;
+}
+
+/* CONTACTO */
+
+.cta{
+background:#0b2040;
+color:#fff;
+text-align:center;
+}
+
+.cta h2{
+font-size:clamp(29px,4vw,40px);
+margin-top:0;
+}
+
+.contact{
+display:grid;
+grid-template-columns:repeat(3,minmax(0,1fr));
+gap:18px;
+}
+
+.contact div{
+background:#f3f6fa;
+padding:22px;
+border-radius:10px;
+overflow-wrap:anywhere;
+}
+
+.contact a{
+font-weight:800;
+color:#1455a0;
+}
+
+/* PIE */
+
+footer{
+background:#061126;
+color:#ccd6e8;
+text-align:center;
+padding:28px 15px;
+font-size:14px;
+}
+
+/* WHATSAPP FLOTANTE */
+
+.float{
+position:fixed;
+right:15px;
+bottom:15px;
+background:#20bd5a;
+color:#fff;
+padding:13px 19px;
+border-radius:30px;
+font-weight:900;
+z-index:15;
+box-shadow:0 4px 15px #0003;
+}
+
+/* TABLET */
 
 @media(max-width:850px){
-.grid{grid-template-columns:repeat(2,minmax(0,1fr))}
-.about{grid-template-columns:1fr}
-.contact{grid-template-columns:1fr}
-nav{padding:12px 0;align-items:flex-start;flex-direction:column}
-nav div{gap:15px}
+
+.grid{
+grid-template-columns:repeat(2,minmax(0,1fr));
 }
 
-@media(max-width:560px){
-.grid,.gallery{grid-template-columns:1fr}
-section{padding:52px 0}
-.hero{min-height:510px}
-.hero p{font-size:17px}
-.card img,.gallery img,.gallery video{height:230px}
-.float{right:10px;bottom:10px}
-.reviews{padding:24px 18px}
+.about{
+grid-template-columns:1fr;
 }
+
+.contact{
+grid-template-columns:1fr;
+}
+
+nav{
+padding:12px 0;
+align-items:flex-start;
+flex-direction:column;
+}
+
+nav div{
+gap:15px;
+}
+
+.gallery{
+grid-template-columns:repeat(2,minmax(0,1fr));
+}
+
+}
+
+/* MÓVIL */
+
+@media(max-width:560px){
+
+.grid,
+.gallery{
+grid-template-columns:1fr;
+}
+
+section{
+padding:52px 0;
+}
+
+.hero{
+min-height:510px;
+}
+
+.hero p{
+font-size:17px;
+}
+
+.card img{
+height:230px;
+}
+
+.gallery img,
+.gallery video{
+height:250px;
+}
+
+.float{
+right:10px;
+bottom:10px;
+}
+
+.reviews{
+padding:24px 18px;
+}
+
+.about-box{
+padding:25px;
+}
+
+nav div a{
+font-size:13px;
+}
+
+}
+
 </style>
 </head>
 
 <body>
 
+<!-- CABECERA -->
+
 <header>
 <nav class="w">
-<a class="logo" href="#inicio">ALUM<span>KA</span></a>
+
+<a class="logo" href="#inicio">
+ALUM<span>KA</span>
+</a>
+
 <div>
 <a href="#servicios">Servicios</a>
-<a href="#trabajos">Galería</a>
+<a href="#trabajos">Trabajos</a>
 <a href="#opiniones">Opiniones</a>
 <a href="#contacto">Contacto</a>
 </div>
+
 </nav>
 </header>
 
 <main>
 
+<!-- PORTADA -->
+
 <section class="hero" id="inicio">
+
 <div class="w hero-content">
+
 <small>GILET · SAGUNTO · VALENCIA Y ALREDEDORES</small>
+
 <h1>Calidad, experiencia y soluciones a medida</h1>
-<p>Carpintería de aluminio y PVC, toldos, persianas, mosquiteras, pérgolas, puertas de seguridad, cerrajería y mantenimiento.</p>
-<a class="btn white" href="https://wa.me/34641621259?text=Hola%20ALUMKA%2C%20quiero%20pedir%20un%20presupuesto." target="_blank" rel="noopener">PEDIR PRESUPUESTO</a>
-<a class="btn blue" href="tel:+34641621259">641 621 259</a>
+
+<p>
+Carpintería de aluminio y PVC, toldos, persianas,
+mosquiteras, pérgolas, puertas de seguridad,
+cerrajería y mantenimiento.
+</p>
+
+<a class="btn white"
+href="https://wa.me/34641621259?text=Hola%20ALUMKA%2C%20quiero%20pedir%20un%20presupuesto."
+target="_blank"
+rel="noopener">
+PEDIR PRESUPUESTO
+</a>
+
+<a class="btn blue" href="tel:+34641621259">
+641 621 259
+</a>
+
 </div>
 </section>
 
+<!-- SERVICIOS -->
+
 <section id="servicios">
+
 <div class="w">
 
 <div class="title">
@@ -115,93 +485,228 @@ section{padding:52px 0}
 
 <div class="grid">
 
+<!-- 1 -->
+
 <article class="card">
-<img src="01-ventanas-puertas-aluminio-pvc.jpg" alt="Ventanas y puertas de aluminio y PVC ALUMKA" loading="lazy">
+
+<img src="01-ventanas-puertas-aluminio-pvc.jpg"
+alt="Ventanas y puertas de aluminio y PVC ALUMKA"
+loading="lazy">
+
 <div class="card-content">
+
 <div class="ico">🪟</div>
+
 <h3>Ventanas y puertas de aluminio y PVC</h3>
-<p>Ventanas, puertas, balconeras y cerramientos a medida para mejorar el aislamiento, el confort y la estética de tu vivienda.</p>
+
+<p>
+Ventanas, puertas, balconeras y cerramientos a medida
+para mejorar el aislamiento, el confort y la estética
+de tu vivienda.
+</p>
+
 </div>
 </article>
 
+<!-- 2 -->
+
 <article class="card">
-<img src="02-toldos-extensibles.jpg" alt="Toldos extensibles ALUMKA" loading="lazy">
+
+<img src="02-toldos-extensibles.jpg"
+alt="Toldos extensibles ALUMKA"
+loading="lazy">
+
 <div class="card-content">
+
 <div class="ico">☀️</div>
+
 <h3>Toldos extensibles</h3>
-<p>Protección solar para terrazas, balcones y patios, adaptada a las medidas y necesidades de tu espacio.</p>
+
+<p>
+Protección solar para terrazas, balcones y patios,
+adaptada a las medidas y necesidades de tu espacio.
+</p>
+
 </div>
 </article>
 
+<!-- 3 -->
+
 <article class="card">
-<img src="03-toldos-punto-recto.jpg" alt="Toldos de punto recto ALUMKA" loading="lazy">
+
+<img src="03-toldos-punto-recto.jpg"
+alt="Toldos de punto recto ALUMKA"
+loading="lazy">
+
 <div class="card-content">
+
 <div class="ico">🏠</div>
+
 <h3>Toldos de punto recto</h3>
-<p>Una solución práctica para ventanas y fachadas que ayuda a reducir la entrada directa del sol.</p>
+
+<p>
+Una solución práctica para ventanas y fachadas que
+ayuda a reducir la entrada directa del sol.
+</p>
+
 </div>
 </article>
 
+<!-- 4 -->
+
 <article class="card">
-<img src="04-toldos-planos.jpg" alt="Toldos planos para terrazas y patios" loading="lazy">
+
+<img src="04-toldos-planos.jpg"
+alt="Toldos planos para terrazas y patios"
+loading="lazy">
+
 <div class="card-content">
+
 <div class="ico">🌤️</div>
+
 <h3>Toldos planos</h3>
-<p>Protección para terrazas, patios y espacios exteriores con propuestas adaptadas a cada proyecto.</p>
+
+<p>
+Protección para terrazas, patios y espacios exteriores
+con propuestas adaptadas a cada proyecto.
+</p>
+
 </div>
 </article>
 
+<!-- 5 -->
+
 <article class="card">
-<img src="05-persianas-enrollables.jpg" alt="Persianas enrollables ALUMKA" loading="lazy">
+
+<img src="05-persianas-enrollables.jpg"
+alt="Persianas enrollables ALUMKA"
+loading="lazy">
+
 <div class="card-content">
+
 <div class="ico">🪟</div>
+
 <h3>Persianas enrollables</h3>
-<p>Instalación, sustitución y reparación de persianas para regular la luz, ganar privacidad y mantenerlas en buen estado.</p>
+
+<p>
+Instalación, sustitución y reparación de persianas
+para regular la luz, ganar privacidad y mantenerlas
+en buen estado.
+</p>
+
 </div>
 </article>
 
+<!-- 6 -->
+
 <article class="card">
-<img src="06-puertas-seguridad.jpg" alt="Puertas de entrada de seguridad" loading="lazy">
+
+<img src="06-puertas-seguridad.jpg"
+alt="Puertas de entrada de seguridad"
+loading="lazy">
+
 <div class="card-content">
+
 <div class="ico">🔐</div>
+
 <h3>Puertas de seguridad</h3>
-<p>Puertas de entrada para viviendas y negocios. Asesoramiento sobre modelos, acabados y sistemas de cierre.</p>
+
+<p>
+Puertas de entrada para viviendas y negocios.
+Asesoramiento sobre modelos, acabados y sistemas
+de cierre.
+</p>
+
 </div>
 </article>
 
+<!-- 7 -->
+
 <article class="card">
-<img src="07-cerrajeria.jpg" alt="Trabajos de cerrajería ALUMKA" loading="lazy">
+
+<img src="07-cerrajeria.jpg"
+alt="Trabajos de cerrajería ALUMKA"
+loading="lazy">
+
 <div class="card-content">
+
 <div class="ico">🔒</div>
+
 <h3>Cerrajería</h3>
-<p>Trabajos metálicos, rejas, vallas, puertas de acceso y soluciones adaptadas a cada cliente.</p>
+
+<p>
+Trabajos metálicos, rejas, vallas, puertas de acceso
+y soluciones adaptadas a cada cliente.
+</p>
+
 </div>
 </article>
 
+<!-- 8 -->
+
 <article class="card">
-<img src="08-mantenimiento-reparaciones.jpg" alt="Mantenimiento y reparaciones ALUMKA" loading="lazy">
+
+<img src="08-mantenimiento-reparaciones.jpg"
+alt="Mantenimiento y reparaciones ALUMKA"
+loading="lazy">
+
 <div class="card-content">
+
 <div class="ico">🛠️</div>
+
 <h3>Mantenimiento y reparaciones</h3>
-<p>Reparaciones de persianas, toldos, ventanas y puertas, además de mantenimiento para viviendas, comunidades y locales.</p>
+
+<p>
+Reparaciones de persianas, toldos, ventanas y puertas,
+además de mantenimiento para viviendas, comunidades
+y locales.
+</p>
+
 </div>
 </article>
 
+<!-- 9 -->
+
 <article class="card">
-<img src="09-mosquiteras.jpg" alt="Mosquiteras plisadas y enrollables instaladas por ALUMKA" loading="lazy">
+
+<img src="09-mosquiteras.jpg"
+alt="Mosquiteras plisadas y enrollables ALUMKA"
+loading="lazy">
+
 <div class="card-content">
+
 <div class="ico">🦟</div>
+
 <h3>Mosquiteras enrollables y plisadas</h3>
-<p>Fabricación e instalación de mosquiteras a medida para ventanas y puertas. Protección contra insectos y comodidad para tu hogar.</p>
+
+<p>
+Fabricación e instalación de mosquiteras a medida
+para ventanas y puertas. Protección contra insectos
+y comodidad para tu hogar.
+</p>
+
 </div>
 </article>
 
+<!-- 10 -->
+
 <article class="card">
-<img src="10-pergola.jpg" alt="Pérgola instalada en terraza por ALUMKA" loading="lazy">
+
+<img src="10-pergola.jpg"
+alt="Pérgola ALUMKA"
+loading="lazy">
+
 <div class="card-content">
+
 <div class="ico">🌿</div>
+
 <h3>Pérgolas y cerramientos</h3>
-<p>Soluciones para disfrutar de terrazas y espacios exteriores, con opciones adaptadas a cada espacio.</p>
+
+<p>
+Soluciones para disfrutar de terrazas y espacios
+exteriores, con opciones adaptadas a cada espacio.
+</p>
+
 </div>
 </article>
 
@@ -209,14 +714,20 @@ section{padding:52px 0}
 </div>
 </section>
 
+<!-- SOBRE ALUMKA -->
+
 <section>
+
 <div class="w about">
 
-<img src="01-ventanas-puertas-aluminio-pvc.jpg" alt="Carpintería de aluminio y PVC ALUMKA" loading="lazy">
+<div class="about-box">
 
-<div>
 <h2>Un servicio cercano y profesional</h2>
-<p>En ALUMKA estudiamos cada trabajo para ofrecerte una solución adaptada a tus necesidades.</p>
+
+<p>
+En ALUMKA estudiamos cada trabajo para ofrecerte
+una solución adaptada a tus necesidades.
+</p>
 
 <ul>
 <li>Más de 20 años de experiencia en montaje</li>
@@ -225,134 +736,218 @@ section{padding:52px 0}
 <li>Trabajos a medida</li>
 </ul>
 
-<a class="btn blue" href="https://wa.me/34641621259?text=Hola%20ALUMKA%2C%20quiero%20consultar%20un%20trabajo." target="_blank" rel="noopener">CONSULTAR POR WHATSAPP</a>
+<a class="btn blue"
+href="https://wa.me/34641621259?text=Hola%20ALUMKA%2C%20quiero%20consultar%20un%20trabajo."
+target="_blank"
+rel="noopener">
+CONSULTAR POR WHATSAPP
+</a>
+
+</div>
+
+<div>
+
+<h2>Calidad y confianza</h2>
+
+<p>
+Trabajamos con materiales de calidad y buscamos
+la mejor solución para cada instalación.
+</p>
+
+<p>
+Te asesoramos desde el primer contacto, preparamos
+tu presupuesto y coordinamos el trabajo para ofrecerte
+un servicio profesional.
+</p>
+
+<p>
+Contacta con nosotros y cuéntanos qué necesitas.
+</p>
+
 </div>
 
 </div>
 </section>
 
+<!-- GALERÍA DE TRABAJOS -->
+
 <section id="trabajos" class="grey">
+
 <div class="w">
 
 <div class="title">
+
 <h2>Nuestros trabajos realizados</h2>
-<p>Fotos y vídeos reales de instalaciones realizadas por ALUMKA.</p>
+
+<p>
+Fotos y vídeos de nuestros trabajos e instalaciones.
+</p>
+
 </div>
 
 <div class="gallery">
 
-<figure>
-<img src="01-ventanas-puertas-aluminio-pvc.jpg" alt="Ventanas y puertas de aluminio y PVC" loading="lazy">
-<figcaption>Ventanas y puertas</figcaption>
-</figure>
+<!-- FOTO MOSQUITERAS -->
 
 <figure>
-<img src="02-toldos-extensibles.jpg" alt="Toldos extensibles" loading="lazy">
-<figcaption>Toldos extensibles</figcaption>
+
+<img src="09-mosquiteras.jpg"
+alt="Mosquiteras enrollables y plisadas ALUMKA"
+loading="lazy">
+
+<figcaption>
+Mosquiteras enrollables y plisadas
+</figcaption>
+
 </figure>
 
-<figure>
-<img src="03-toldos-punto-recto.jpg" alt="Toldos de punto recto" loading="lazy">
-<figcaption>Toldos de punto recto</figcaption>
-</figure>
+<!-- VÍDEO MOSQUITERAS -->
 
 <figure>
-<img src="04-toldos-planos.jpg" alt="Toldos planos" loading="lazy">
-<figcaption>Toldos planos</figcaption>
-</figure>
 
-<figure>
-<img src="05-persianas-enrollables.jpg" alt="Persianas enrollables" loading="lazy">
-<figcaption>Persianas</figcaption>
-</figure>
+<video controls playsinline preload="metadata"
+poster="09-mosquiteras.jpg">
 
-<figure>
-<img src="06-puertas-seguridad.jpg" alt="Puertas de seguridad" loading="lazy">
-<figcaption>Puertas de seguridad</figcaption>
-</figure>
-
-<figure>
-<img src="07-cerrajeria.jpg" alt="Cerrajería" loading="lazy">
-<figcaption>Cerrajería</figcaption>
-</figure>
-
-<figure>
-<img src="08-mantenimiento-reparaciones.jpg" alt="Mantenimiento y reparaciones" loading="lazy">
-<figcaption>Mantenimiento y reparaciones</figcaption>
-</figure>
-
-<figure>
-<img src="09-mosquiteras.jpg" alt="Mosquitera plisada instalada en puerta y ventana" loading="lazy">
-<figcaption>Mosquiteras instaladas</figcaption>
-</figure>
-
-<figure>
-<video controls playsinline preload="metadata" poster="09-mosquiteras.jpg">
 <source src="mosquiteras.mp4" type="video/mp4">
+
 Tu navegador no puede reproducir este vídeo.
+
 </video>
-<figcaption>Vídeo de mosquiteras</figcaption>
+
+<figcaption>
+Vídeo de nuestras mosquiteras
+</figcaption>
+
 </figure>
 
+<!-- FOTO PÉRGOLA -->
+
 <figure>
-<img src="10-pergola.jpg" alt="Pérgola instalada en terraza junto a piscina" loading="lazy">
-<figcaption>Pérgola instalada</figcaption>
+
+<img src="10-pergola.jpg"
+alt="Pérgola instalada ALUMKA"
+loading="lazy">
+
+<figcaption>
+Pérgolas y espacios exteriores
+</figcaption>
+
 </figure>
 
 </div>
 </div>
 </section>
 
+<!-- OPINIONES -->
+
 <section id="opiniones">
+
 <div class="w">
 
 <div class="title">
+
 <h2>Opiniones de nuestros clientes</h2>
-<p>La confianza de nuestros clientes es nuestra mejor recomendación.</p>
+
+<p>
+La confianza de nuestros clientes es nuestra mejor recomendación.
+</p>
+
 </div>
 
 <div class="reviews">
+
 <div class="stars">★★★★★</div>
+
 <h3>¿Has trabajado con ALUMKA?</h3>
-<p>Tu opinión nos ayuda a mejorar y a que otros clientes conozcan nuestro trabajo. Consulta las reseñas y déjanos tu valoración en Google.</p>
 
-<a class="btn blue" href="https://maps.app.goo.gl/2UhhkcadLjjQ2TMz6" target="_blank" rel="noopener">LEER OPINIONES REALES EN GOOGLE</a>
+<p>
+Tu opinión nos ayuda a mejorar y a que otros clientes
+conozcan nuestro trabajo. Consulta las reseñas y
+déjanos tu valoración en Google.
+</p>
+
+<a class="btn blue"
+href="https://maps.app.goo.gl/2UhhkcadLjjQ2TMz6"
+target="_blank"
+rel="noopener">
+LEER OPINIONES REALES EN GOOGLE
+</a>
+
 </div>
-
 </div>
 </section>
+
+<!-- CONTACTO DIRECTO -->
 
 <section class="cta">
+
 <div class="w">
+
 <h2>¿Necesitas un presupuesto?</h2>
-<p>Cuéntanos qué necesitas y envíanos fotos de tu proyecto por WhatsApp.</p>
-<a class="btn white" href="https://wa.me/34641621259?text=Hola%20ALUMKA%2C%20quiero%20pedir%20un%20presupuesto." target="_blank" rel="noopener">CONTACTAR POR WHATSAPP</a>
+
+<p>
+Cuéntanos qué necesitas y envíanos fotos de tu proyecto
+por WhatsApp.
+</p>
+
+<a class="btn white"
+href="https://wa.me/34641621259?text=Hola%20ALUMKA%2C%20quiero%20pedir%20un%20presupuesto."
+target="_blank"
+rel="noopener">
+CONTACTAR POR WHATSAPP
+</a>
+
 </div>
 </section>
 
+<!-- CONTACTO -->
+
 <section id="contacto">
+
 <div class="w">
 
 <div class="title">
+
 <h2>Contacta con ALUMKA</h2>
-<p>Gilet, Sagunto, Puerto de Sagunto, Valencia y alrededores.</p>
+
+<p>
+Gilet, Sagunto, Puerto de Sagunto, Valencia y alrededores.
+</p>
+
 </div>
 
 <div class="contact">
 
 <div>
+
 <h3>📞 Teléfono</h3>
-<a href="tel:+34641621259">641 621 259</a>
+
+<a href="tel:+34641621259">
+641 621 259
+</a>
+
 </div>
 
 <div>
+
 <h3>📧 Correo electrónico</h3>
-<a href="mailto:alumka.es@gmail.com">alumka.es@gmail.com</a>
+
+<a href="mailto:alumka.es@gmail.com">
+alumka.es@gmail.com
+</a>
+
 </div>
 
 <div>
+
 <h3>📲 Instagram</h3>
-<a href="https://www.instagram.com/alumka.es/" target="_blank" rel="noopener">Síguenos en Instagram</a>
+
+<a href="https://www.instagram.com/alumka.es/"
+target="_blank"
+rel="noopener">
+Síguenos en Instagram
+</a>
+
 </div>
 
 </div>
@@ -361,11 +956,26 @@ Tu navegador no puede reproducir este vídeo.
 
 </main>
 
+<!-- PIE DE PÁGINA -->
+
 <footer>
-© 2026 ALUMKA · Carpintería de aluminio y PVC · Toldos · Persianas · Mosquiteras · Cerrajería · Mantenimiento
+
+© 2026 ALUMKA · Carpintería de aluminio y PVC ·
+Toldos · Persianas · Mosquiteras · Cerrajería · Mantenimiento
+
 </footer>
 
-<a class="float" href="https://wa.me/34641621259?text=Hola%20ALUMKA%2C%20quiero%20pedir%20un%20presupuesto." target="_blank" rel="noopener" aria-label="Contactar con ALUMKA por WhatsApp">WhatsApp</a>
+<!-- WHATSAPP FLOTANTE -->
+
+<a class="float"
+href="https://wa.me/34641621259?text=Hola%20ALUMKA%2C%20quiero%20pedir%20un%20presupuesto."
+target="_blank"
+rel="noopener"
+aria-label="Contactar con ALUMKA por WhatsApp">
+
+WhatsApp
+
+</a>
 
 </body>
 </html>
